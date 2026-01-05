@@ -11,8 +11,7 @@ export default function Home() {
       description:
         "Real-time investment tracker integrating live market data. Optimized data fetching to reduce API latency by 40% using SWR caching.",
       techStack: ["React", "Node.js", "Yahoo Finance API", "Chart.js"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/sujankowshik/Yahoo-finance-dashboard",
       imageUrl: "/finance-dashboard-ui.png",
     },
     {
@@ -20,8 +19,7 @@ export default function Home() {
       description:
         "Secure marketplace with Stripe integration. Implemented inventory management system that improved order processing speed by 25%.",
       techStack: ["React", "Node.js", "Stripe/PayPal", "Firebase Auth", "JWT"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/sujankowshik/eCommerce-Store-with-Admin-Dashboard",
       imageUrl: "/ecommerce-platform-ui.jpg",
     },
     {
@@ -29,8 +27,7 @@ export default function Home() {
       description:
         "Machine learning API for residential property values. Achieved a 92% prediction accuracy using optimized Gradient Boosting regression.",
       techStack: ["Flask", "Python", "Machine Learning"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/sujankowshik/house_price_predictor",
       imageUrl: "/machine-learning-chart.jpg",
     },
   ]
@@ -46,6 +43,26 @@ export default function Home() {
   ]
 
   const achievements = [
+    {
+      title: "1st Place – Tejas 2K25 (Anurag University)",
+      description: "Secured top position in a competitive technical event.",
+    },
+    {
+      title: "2nd Place – Hackverse (Anurag University)",
+      description: "Earned second place for an innovative solution among top-tier teams.",
+    },
+    {
+      title: "Top Performer – Visionnova (Anurag University)",
+      description: "Recognized as a top performer in a highly competitive event.",
+    },
+    {
+      title: "Top 10 Finalist – Udhgam Hackathon (Woxsen University)",
+      description: "Achieved top 10 for developing a creative and impactful project.",
+    },
+    {
+      title: "Top 10 Finalist – Tech Hack (Anurag University)",
+      description: "Secured top 10 position showcasing technical expertise and problem-solving skills.",
+    },
     {
       title: "1st Place - Fintech Hackathon 2025",
       description: "Developed a blockchain-based micro-lending solution for underserved businesses.",
@@ -112,39 +129,39 @@ export default function Home() {
             </nav>
           </div>
 
-          <ul className="ml-1 mt-8 flex items-center gap-5" aria-label="Social media">
+          <ul className="ml-1 mt-8 flex items-center gap-5 relative z-30" aria-label="Social media">
             <li>
               <a
-                className="block text-muted-foreground transition-all duration-200 hover:text-primary hover:-translate-y-1"
+                className="block text-primary transition-all duration-200 hover:text-primary/80 hover:-translate-y-1"
                 href="https://github.com/sujankowshik"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub (opens in a new tab)"
               >
                 <span className="sr-only">GitHub</span>
-                <Github className="h-6 w-6" />
+                <Github className="h-6 w-6" strokeWidth={2} />
               </a>
             </li>
             <li>
               <a
-                className="block text-muted-foreground transition-all duration-200 hover:text-primary hover:-translate-y-1"
+                className="block text-primary transition-all duration-200 hover:text-primary/80 hover:-translate-y-1"
                 href="https://www.linkedin.com/in/sujankowshikjilla/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn (opens in a new tab)"
               >
                 <span className="sr-only">LinkedIn</span>
-                <Linkedin className="h-6 w-6" />
+                <Linkedin className="h-6 w-6" strokeWidth={2} />
               </a>
             </li>
             <li>
               <a
-                className="block text-muted-foreground transition-all duration-200 hover:text-primary hover:-translate-y-1"
+                className="block text-primary transition-all duration-200 hover:text-primary/80 hover:-translate-y-1"
                 href="mailto:sujankowshikjilla@gmail.com"
                 aria-label="Email Sujan"
               >
                 <span className="sr-only">Email</span>
-                <Mail className="h-6 w-6" />
+                <Mail className="h-6 w-6" strokeWidth={2} />
               </a>
             </li>
           </ul>
