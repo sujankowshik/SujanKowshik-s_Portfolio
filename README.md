@@ -70,6 +70,6 @@ This portfolio is intended for:
 - **LinkedIn:** https://www.linkedin.com/in/sujankowshikjilla/  
 - **Email:** sujankowshikjilla@gmail.com  
 
----
+--- need to add more features
 
 ⭐ If you like this project, feel free to star the repository!
