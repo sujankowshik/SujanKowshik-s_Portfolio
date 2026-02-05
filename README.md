@@ -45,12 +45,7 @@ This repository is automatically synced with my deployed v0 project.
 
 ---
 
-## 🚀 Development Workflow
 
-1. Design and update components using **v0.app**
-2. Deploy changes directly from the v0 interface
-3. Code is automatically synced to this GitHub repository
-4. Vercel handles continuous deployment
 
 ---
 
