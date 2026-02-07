@@ -35,15 +35,7 @@ https://vercel.com/sujan-kowshik-jillas-projects/v0-developer-portfolio-website
 
 ---
 
-## 📂 Project Structure
 
-This repository is automatically synced with my deployed v0 project.
-
-- All UI changes are made through **v0.app**
-- Updates are automatically pushed to this repository
-- Vercel deploys the latest version on every update
-
----
 
 
 
